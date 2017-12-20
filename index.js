@@ -9,7 +9,7 @@ function findMatching(drivers,name){
 
 }
 
-function fuzzyMath(drivers,str){
+function fuzzyMatch(drivers,str){
   return drivers.filter(function(d){
     if(d.startsWith(str)==true)
     return d;

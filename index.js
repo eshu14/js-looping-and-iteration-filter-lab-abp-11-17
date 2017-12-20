@@ -8,14 +8,14 @@ function findMatching(drivers,name){
   });
 
 }
+
 function fuzzyMath(drivers,str){
   return drivers.filter(function (d){
     if(d.startsWith(str)==true)
     return str;
   });
-
-
 }
+
 function matchName(drivers,str){
 
 }
